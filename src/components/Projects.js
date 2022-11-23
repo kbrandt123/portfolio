@@ -186,9 +186,7 @@ const Projects = () => {
               </div>
               <div
                 onClick={() =>
-                  openInNewTab(
-                    "https://superlative-croissant-d5e681.netlify.app/"
-                  )
+                  openInNewTab("https://prismatic-tarsier-0045e6.netlify.app")
                 }
                 className="portfolio-project-button"
               >
