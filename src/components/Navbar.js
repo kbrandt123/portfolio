@@ -26,16 +26,6 @@ const Navbar = () => {
         >
           Projects
         </Link>
-
-        <Link
-          to={"emailSection"}
-          spy={true}
-          smooth={true}
-          offset={-30}
-          className="portfolio-nav-hire-me-button"
-        >
-          Let's talk!
-        </Link>
       </nav>
     </div>
   );

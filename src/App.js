@@ -3,7 +3,6 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
 import Technologies from "./components/Technologies";
-import Email from "./components/Email";
 import End from "./components/End";
 import About from "./components/About";
 const App = () => {
@@ -16,7 +15,7 @@ const App = () => {
           <About></About>
           <Projects></Projects>
           <Technologies></Technologies>
-          <Email></Email>
+
           <End></End>
         </div>
       </div>

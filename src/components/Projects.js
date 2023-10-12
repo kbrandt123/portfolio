@@ -11,25 +11,21 @@ const Projects = () => {
         <div className="portfolio-project-container">
           <div className="portfolio-project-image-div">
             <img
-              src="images/league.png"
+              src="images/favicon.png"
               loading="lazy"
               alt=""
               className="portfolio-project-image"
             />
           </div>
           <div className="portfolio-project-info-div">
-            <h3 className="portfolio-project-info-title">
-              League Of Legends Survey
-            </h3>
+            <h3 className="portfolio-project-info-title">Guess That Word</h3>
 
             <div className="portfolio-project-info-summary">
-              League of Legends is a game I grew up playing with my friends
-              during my youth period. Although I dont nearly play as much
-              anymore, I still wanted to create something to get feedback about
-              the current state of the game from new and seasoned players. This
-              survey allows users to enter how long they have been playing the
-              game, select their favorite character, and provide feedback, and
-              displays a fun statistic once submitted!
+              Guess That Word is one of my first projects, drawing inspiration
+              from the timeless game Hangman. Users can input a single letter to
+              uncover the hidden word. Through this project, I gained valuable
+              experience in using HTML, CSS, and JavaScript to create an
+              interactive and engaging game.
               <br />
             </div>
             <div className="portoflio-project-info-question"></div>
@@ -40,13 +36,13 @@ const Projects = () => {
               Languages/Technologies
             </div>
             <div className="portfolio-project-info-summary">
-              Next.js, Node.js, MySQL, Git, Nginx, Axios, DigitalOcean
+              HTML, CSS, JavaScript, Netlify, Git
               <br />
             </div>
             <div className="portfolio-project-info-links">
               <div
                 onClick={() =>
-                  openInNewTab("https://github.com/kbrandt123/lol-survey")
+                  openInNewTab("https://github.com/kbrandt123/Guess-That-Word")
                 }
                 className="portfolio-project-button"
               >
@@ -59,7 +55,9 @@ const Projects = () => {
                 GitHub
               </div>
               <div
-                onClick={() => openInNewTab("https://leaguesurvey.com/")}
+                onClick={() =>
+                  openInNewTab("https://wondrous-kangaroo-cb54d1.netlify.app/")
+                }
                 className="portfolio-project-button"
               >
                 <img
@@ -87,13 +85,13 @@ const Projects = () => {
           <div className="portfolio-project-info-div">
             <h3 className="portfolio-project-info-title">Weather Forecast</h3>
             <div className="portoflio-project-info-summary">
-              This project was recommended to be by an Angular/React professor
-              to further strengthen my react fundementals. I enjoyed making this
-              project as it was challengng but also rewarding. When a user
-              submits a zipcode, the program reaches out to a weather API which
-              returns the current weather data for the given zipcode. The user
-              has the options to route to a 5-day forcast or delete an entry
-              they no longer want to view.
+              I took on this project at the recommendation of my Angular/React
+              professor to enhance my React skills. I had a great time working
+              on it because it was both challenging and satisfying. In this
+              project, users can input a zipcode, and the program connects to a
+              weather API to fetch the current weather data for that zipcode.
+              Users can also choose to check a 5-day forecast or delete entries
+              they no longer need.
             </div>
             <br></br>
             <div className="portoflio-project-info-question">
@@ -152,12 +150,12 @@ const Projects = () => {
 
             <div className="portfolio-project-info-summary">
               <br />
-              My girlfriend and her friends always have a tough time deciding on
-              what alcoholic beverages to make. I thought it would be fun to
-              spin up an application that generates a cocktail at random to
-              eliminate the process of deciding what to make! A user may search
-              or generate at random to display a cocktails image, ingredients,
-              and instructions!
+              My girlfriend and her friends like to create unique cocktails. To
+              make things more enjoyable, I decided to create an app that
+              randomly generates cocktail recipes. This eliminates the hassle of
+              deciding what to make. Users can either search for a specific
+              cocktail or get a random suggestion, complete with an image,
+              ingredients, and instructions.
             </div>
             <br />
             <div className="portoflio-project-info-question">
