@@ -15,7 +15,7 @@ const Technologies = () => {
               className="portfolio-page-tech-image"
             />
           </div>
-          <div className="portfolio-page-tech-title">Javascript</div>
+          <div className="portfolio-page-tech-title">JavaScript</div>
         </div>
         <div className="portfolio-page-tech-info-div">
           <div className="portfolio-page-tech-image-div">
