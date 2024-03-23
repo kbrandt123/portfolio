@@ -20,7 +20,7 @@ const Technologies = () => {
         <div className="portfolio-page-tech-info-div">
           <div className="portfolio-page-tech-image-div">
             <img
-              src="/images/sql-svgrepo-com.svg"
+              src="/images/sql-svgrepo-com.svg"zx
               loading="lazy"
               alt=""
               className="portfolio-page-tech-image"
