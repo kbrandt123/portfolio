@@ -5,6 +5,7 @@ import Projects from "./components/Projects";
 import Technologies from "./components/Technologies";
 import End from "./components/End";
 import About from "./components/About";
+import Footer from "./components/Foot";
 const App = () => {
   return (
     <>
@@ -15,8 +16,8 @@ const App = () => {
           <About></About>
           <Projects></Projects>
           <Technologies></Technologies>
-
           <End></End>
+          <Footer />
         </div>
       </div>
     </>
