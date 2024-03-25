@@ -5,11 +5,7 @@ const Hero = () => {
     <div id="aboutSection" className="portfolio-hero-section">
       <div className="portfolio-hero-center-container">
         <div className="portfolio-hero-left">
-          <h1 className="portfolio-hero-header">
-            Hi, my
-            <br />
-            name is Kevin
-          </h1>
+          <h1 className="portfolio-hero-header">Hi, I'm Kevin</h1>
           <div className="portfolio-hero-descriptor">
             Fully self-taught developer from
             <br />
