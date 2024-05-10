@@ -200,6 +200,73 @@ const Projects = () => {
           </div>
         </div>
       </div>
+      <div className="portfolio-project-block">
+        <div className="portfolio-project-container">
+          <div className="portfolio-project-image-div">
+            <img
+              src="images/nextjs-icon-svgrepo-com.svg"
+              loading="lazy"
+              alt=""
+              className="portfolio-project-image"
+            />
+          </div>
+
+          <div className="portfolio-project-info-div">
+            <h3 className="portfolio-project-info-title">
+              {" "}
+              Next.js Research Project
+            </h3>
+
+            <div className="portfolio-project-info-summary">
+              <br />
+              This was a research project for my JavaScript class at Long Beach
+              City College, where the assignment was to create a single-page
+              website presenting our research. I chose to research Next.js, a
+              framework I had previously worked with.
+            </div>
+            <br />
+            <div className="portoflio-project-info-question">
+              Languages/Technologies
+            </div>
+            <div className="portfolio-project-info-summary">
+              HTML, CSS
+              <br />
+            </div>
+            <div className="portfolio-project-info-links">
+              <div
+                onClick={() =>
+                  openInNewTab("https://github.com/kbrandt123/next.js-project")
+                }
+                className="portfolio-project-button"
+              >
+                <img
+                  src="images/github-svgrepo-com.svg"
+                  loading="lazy"
+                  alt=""
+                  className="portfolio-project-github-link"
+                />
+                GitHub
+              </div>
+              <div
+                onClick={() =>
+                  openInNewTab(
+                    "https://master--inspiring-elf-647e8f.netlify.app/"
+                  )
+                }
+                className="portfolio-project-button"
+              >
+                <img
+                  src="images/link-svgrepo-com.svg"
+                  loading="lazy"
+                  alt=""
+                  className="portfolio-project-github-link"
+                />
+                Website
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
